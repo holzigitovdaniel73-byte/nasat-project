@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.klass{
+    margin: 0 auto;
+    width: 1308px;
+    gap: 20px;
+    display: flex;
+    justify-content: start;
+   
+
+flex-wrap: wrap;
+    
+}
+.igor{
+width: 270px;
+height: 390px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16;
+
+.vep{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    text-align: center;
+background: rgba(245, 245, 245, 1);
+
+width: 270px;
+height: 250px;
+
+position: relative;
+}
+
+.at{
+    position: absolute;
+    top: 12px;
+    left:224px ;
+}
+.button1{
+    position: absolute;
+    top:12px ;
+    left: 12px;
+}
+
+.vep img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vep1{
+   
+
+width: 201px;
+height: 84px;
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 8;
+
+
+
+
+   
+}
+
+.button{
+    position: absolute;
+    top: 209px;
+    width: 270px;
+    height: 41px;
+    color:rgba(245, 245, 245, 1);
+   border: none ;
+   display: flex;
+  justify-content: center;
+  text-align: center;
+    
+   background: rgba(245, 245, 245, 1);
+}
+.button:hover{
+  background-color: #000;  
+}
+
+.mini{
+    display: flex;
+    justify-content: space-between;
+    width:85px ;
+
+}
+
+
+}
