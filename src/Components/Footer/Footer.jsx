@@ -6,8 +6,7 @@ import qrImage from "../../assets/svg/qrcode.svg";
 import googlePlay from "../../assets/svg/googleplay.svg";
 import appStore from "../../assets/svg/appstore.svg";
 
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { IoSend } from "react-icons/io5";
+
 
 function Footer() {
   return (
@@ -22,7 +21,6 @@ function Footer() {
           <div className="footer-input">
             <input type="email" placeholder="Enter your email" />
             <button>
-              <IoSend size={18} />
             </button>
           </div>
         </div>
@@ -70,10 +68,7 @@ function Footer() {
             </div>
           </div>
           <div className="social-icons">
-            <FaFacebookF />
-            <FaTwitter />
-            <FaInstagram />
-            <FaLinkedinIn />
+          
           </div>
         </div>
       </div>
